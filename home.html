@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body {
+			background-color: whitesmoke;
+		}
+		.logo a{
+			font-size: 40px;
+			font-weight: bold;
+			color: #fff;
+			text-decoration: none;
+			text-align: left;
+		}
+		.nav-bar ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+		.nav-bar li {
+			float: left;
+			border-right:1px solid #bbb;
+		}
+		.nav-bar li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.nav-bar li a:hover:not(.active) {
+			background-color: #111;
+		}
+		/*.active {
+			background-color: #4CAF50;
+		}*/
+	</style>
+</head>
+<body>
+	<header>
+		
+		<div class="nav-bar">
+			<!--<div class="logo">
+				<a href="home.html">Travel Blog</a>
+			</div>-->
+			<ul>
+				<li class="active"><a href="home.html">HOME</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="destination.html">DESTINATION</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>Welcome to our Travel Blog</h1>
+			<p>Explore the world through our eyes.</p>
+			<a href="blog.html" class="button">Read Our Blog</a>
+		</section>
+			<h2>Featured Destinations</h2>
+				<div class="row">
+						<img src="./New folder/destination1.jpg" id="dest1" alt="Destination 1">
+						<h3>Destination 1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="destination.html" class="button">Learn More</a>
+				</div>
+			<div class="row">
+				<img src="./New folder/destination2.jpg" id="dest2" alt="Destination 2">
+				<h3>Destination 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<a href="destination.html" class="button">Learn More</a>
+			</div>
+			<div class="row">
+				<img src="./New folder/destination3.jpg" id="dest3" alt="Destination 3">
+				<h3>Destination 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<a href="destination.html" class="button">Learn More</a>
+			</div>
+	</main>
+</body>
+</html>
+		
